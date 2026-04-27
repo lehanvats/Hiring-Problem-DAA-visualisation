@@ -304,7 +304,7 @@ export default function App() {
           </div>
         </section>
 
-        <section className="flex-1 pb-20 overflow-y-auto hide-scrollbar">
+        <section className="flex-1 pb-10">
           <h3 className="text-sm font-semibold tracking-wide text-slate-400 mb-6 flex items-center gap-2">
             <User className="text-blue-500" size={18} />
             Agency Queue (Candidates)
@@ -342,7 +342,7 @@ export default function App() {
           </div>
         </section>
         
-        <div className="absolute bottom-6 right-6 hidden xl:block bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-2xl backdrop-blur-md max-w-sm ml-6">
+        <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl w-full xl:max-w-xl mt-auto self-end mb-8">
           <h4 className="text-indigo-400 font-bold uppercase tracking-wider text-xs mb-3 flex items-center gap-2">
             <Briefcase size={14} /> The Concept
           </h4>
