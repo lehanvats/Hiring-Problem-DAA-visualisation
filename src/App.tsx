@@ -191,7 +191,7 @@ export default function App() {
           <div className="flex gap-2">
             <button
               onClick={toggleRun}
-              disabled={status === 'idle'}
+              disabled={false}
               className={cn(
                 "flex items-center justify-center gap-2 py-3 text-white rounded-xl font-medium transition-colors flex-1 shadow-lg disabled:opacity-50",
                 status === 'running' ? "bg-amber-600 hover:bg-amber-500" : "bg-emerald-600 hover:bg-emerald-500"
